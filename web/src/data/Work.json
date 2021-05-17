@@ -1,0 +1,31 @@
+[
+    {
+        "id": "0",
+        "title": "Bodegas Barbadillo",
+        "subtitle": "Especialista Técnico de Marketing",
+        "logo": "https://res.cloudinary.com/getapet/image/upload/v1621277409/Kiko%20Website/logocolor_vx7xgm.png",
+        "from": "06-2015",
+        "to": "07-2018",
+        "tasks": {
+            "1": "Desarrollo de la estrategia de marketing para las manzanillas y vinos de Jerez de la compañía",
+            "2": "100% de los objetivos completados durante los 3 años en cuanto a estrategia de social media, crecimiento y adquisión de clientes",
+            "3": "Desarrollo del diseño, estrategias de promoción y lanzamiento de 3 productos",
+            "4": "Establecido un reporting anual y sistema de seguimiento basado en KPIs para el control de las acciones de marketing de la compañía"
+        }
+    },
+    {
+        "id": "1",
+        "title": "AGQ Labs",
+        "subtitle": "Especialista Técnico de Marketing Digital",
+        "logo": "https://res.cloudinary.com/getapet/image/upload/v1621278417/Kiko%20Website/logo_3-01_pyhyrb.png",
+        "from": "01-2019",
+        "to": "present",
+        "tasks": {
+            "1": "Encargado de la estrategia de marketing digital de la empresa, desarrollando campañas de PPC, estrategias de social media, así como adquisión de leads y clientes",
+            "2": "Incremento de un 35% en la adquisión de leads",
+            "3": "Diseño e implantación de la arquitecturaweb de la empresa, de acuerdo a mis conocimientos en marketing y desarrollo web",
+            "4": "Diseño e implementación de un sistema de reporting basado en KPIs para un control exahustivo de cada acción de marketing digital",
+            "5": "Implementación de 3 herramientas para mejorar la digitalización de la empresa"
+        }
+    }
+]

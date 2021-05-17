@@ -1,0 +1,26 @@
+$background-color: #171c28;
+$text-color: #ffffff;
+$emphasis-color: #70FFF1;
+$regular-weight: 400;
+$medium-weight: 500;
+$bold-weight: 600;
+$font:'Source Code Pro', monospace;
+$text-size: 16px;
+
+body {
+  font-family: $font;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  font-size: $text-size;
+}
+
+.right-section {
+  width: 20%;
+  display: flex;
+  align-items: center; 
+}
+
+.left-section {
+  width: 80%;
+}
