@@ -1,32 +1,39 @@
 import './WorkExperience.scss';
 import '../../_presets.scss';
+import data from '../../data/Work.json';
 import WorkItem from '../work-item/WorkItem';
 import { useState, useEffect } from 'react';
-import data from '../../data/Work.json';
 
 
 
 function WorkExperience() {
 
-    const [ data, setData ] = useState();
-
-
+    const [loading, setLoading] = useState({
+        loading: true,
+        data: []
+    });
 
     useEffect(() => {
-        setData(data)
+        setTimeout(() => {
+            setLoading({
+                loading: false,
+                data: data
+            })
+        }, 2000);
     })
 
-    const { works } = data;
+    if(loading) {
+        return <h3>LOADING....</h3>
+                
+    }
 
+
+ 
     return (
         <section className="left-section">
-            <article className="row">
-                {works.map(work => (
-                    <WorkItem key={work.id} work={work}>
-                        
-                    </WorkItem>
-                ))}
-            </article>
+            {data.map(work => (
+                <WorkItem key={work.id} work={work}/>
+            ))}
         </section>
     );
 }

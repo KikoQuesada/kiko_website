@@ -22,7 +22,7 @@ function App() {
         <a target="blank" href="https://twitter.com/_Kiko_7"><img className="social-icon" src="https://res.cloudinary.com/getapet/image/upload/v1621245016/Kiko%20Website/kisspng-precision-trenching-inc-service-business-project-twitter-logo-white-5b517cce842bf6.4311764715320670225414_ecne8z.png" alt="twitter"></img></a>
       </div>
       <div className="container">
-        <div className="d-flex align-items-center">
+        <div className="d-flex align-items-start justify-content-between pt-5">
           <Switch>
             <Route exact path="/" component={AboutMe} />
             <Route exact path="/workexperience" component={WorkExperience} />
