@@ -1,19 +1,5 @@
 [
     {
-        "id": "0",
-        "title": "Bodegas Barbadillo",
-        "subtitle": "Especialista Técnico de Marketing",
-        "logo": "https://res.cloudinary.com/getapet/image/upload/v1621277409/Kiko%20Website/logocolor_vx7xgm.png",
-        "from": "06-2015",
-        "to": "07-2018",
-        "tasks": [
-            "Desarrollo de la estrategia de marketing para las manzanillas y vinos de Jerez de la compañía",
-            "100% de los objetivos completados durante los 3 años en cuanto a estrategia de social media, crecimiento y adquisión de clientes",
-            "Desarrollo del diseño, estrategias de promoción y lanzamiento de 3 productos",
-            "Establecido un reporting anual y sistema de seguimiento basado en KPIs para el control de las acciones de marketing de la compañía"
-        ]
-    },
-    {
         "id": "1",
         "title": "AGQ Labs",
         "subtitle": "Especialista Técnico de Marketing Digital",
@@ -26,6 +12,20 @@
             "Diseño e implantación de la arquitecturaweb de la empresa, de acuerdo a mis conocimientos en marketing y desarrollo web",
             "Diseño e implementación de un sistema de reporting basado en KPIs para un control exahustivo de cada acción de marketing digital",
             "Implementación de 3 herramientas para mejorar la digitalización de la empresa"
+        ]
+    },
+    {
+        "id": "0",
+        "title": "Bodegas Barbadillo",
+        "subtitle": "Especialista Técnico de Marketing",
+        "logo": "https://res.cloudinary.com/getapet/image/upload/v1621277409/Kiko%20Website/logocolor_vx7xgm.png",
+        "from": "06-2015",
+        "to": "07-2018",
+        "tasks": [
+            "Desarrollo de la estrategia de marketing para las manzanillas y vinos de Jerez de la compañía",
+            "100% de los objetivos completados durante los 3 años en cuanto a estrategia de social media, crecimiento y adquisión de clientes",
+            "Desarrollo del diseño, estrategias de promoción y lanzamiento de 3 productos",
+            "Establecido un reporting anual y sistema de seguimiento basado en KPIs para el control de las acciones de marketing de la compañía"
         ]
     }
 ]

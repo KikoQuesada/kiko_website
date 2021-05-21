@@ -1,36 +1,37 @@
-import './WorkExperience.scss';
 import '../../_presets.scss';
 import data from '../../data/Work.json';
 import WorkItem from '../work-item/WorkItem';
 import { useState, useEffect } from 'react';
+import Loading from './../commons/loading/Loading';
 
 
 
 function WorkExperience() {
 
-    const [loading, setLoading] = useState({
+    const [content, setContent] = useState({
         loading: true,
         data: []
     });
 
     useEffect(() => {
         setTimeout(() => {
-            setLoading({
+            setContent({
                 loading: false,
                 data: data
             })
-        }, 2000);
+        }, 1500);
+
     })
 
-    if(loading) {
-        return <h3>LOADING....</h3>
+    if(content.loading) {
+        return <Loading />
                 
     }
 
 
  
     return (
-        <section className="left-section">
+        <section className="col-lg-10">
             {data.map(work => (
                 <WorkItem key={work.id} work={work}/>
             ))}

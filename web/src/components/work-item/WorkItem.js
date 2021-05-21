@@ -11,8 +11,8 @@ function WorkItem({ work: { title, subtitle, logo, from, to, tasks } }) {
                 <div>
                     <h5>{title}</h5>
                     <p><i>{subtitle}</i></p>
-                    <p><i>From {from}</i> <i>To {to}</i></p>
-                    <h6>Tasks</h6>
+                    <p><i>Desde {from}</i> <i>al {to}</i></p>
+                    <h6>Tareas</h6>
                     <ul>
                         {tasks.map(task => (
                             <li key={task}>{task}</li>

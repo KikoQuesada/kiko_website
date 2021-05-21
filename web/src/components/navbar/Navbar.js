@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <nav className="right-section">
+        <nav className="col-lg-2">
             <section className="side-navbar">
-                <Link className="link">Proyectos</Link>
+                <Link to="/projects" className="link">Proyectos</Link>
                 <Link to="/workexperience" className="link">Experiencia Laboral</Link>
-                <Link className="link">Estudios</Link>
-                <Link className="link">Contáctame</Link>
+                <Link to="/studies" className="link">Estudios</Link>
+                <Link to="/contact" className="link">Contáctame</Link>
             </section>
         </nav>
     );

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "0",
+        "name": "Get a Pet",
+        "image": "https://res.cloudinary.com/getapet/image/upload/v1621598592/Kiko%20Website/GetAPet_mk9jzm.png",
+        "technologies": [
+            "https://res.cloudinary.com/getapet/image/upload/v1621587111/Kiko%20Website/javascript-js_c62ir9.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621589025/Kiko%20Website/HTML5_rspbgd.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621599109/Kiko%20Website/MaterialUI_itijkg.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621596750/Kiko%20Website/NodeJS_qekvsp.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621598825/Kiko%20Website/ReactJS_rz3try.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621597142/Kiko%20Website/MongoDB_mzhttq.png"
+        ],
+        "description": "Segundo proyecto del máster en desarrollo web. Se trata de una aplicación de intercambio y compra/venta de videojuegos entre particulares. Puedes crearte una cuenta, valorar a los compradores, vendedores y videojuegos, dejar reseñas y conectar tu cuenta con tu cuenta de Steam, entre otras funcionalidades.",
+        "url": "#"
+    },
+    {
+        "id": "1",
+        "name": "Just Game",
+        "image": "https://res.cloudinary.com/getapet/image/upload/v1621595911/Kiko%20Website/justGame_j3gzfh.png",
+        "technologies": [
+            "https://res.cloudinary.com/getapet/image/upload/v1621587111/Kiko%20Website/javascript-js_c62ir9.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621589025/Kiko%20Website/HTML5_rspbgd.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621589025/Kiko%20Website/css3_icy8yr.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621596750/Kiko%20Website/NodeJS_qekvsp.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621596974/Kiko%20Website/Handlebars_euiuxg.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621597142/Kiko%20Website/MongoDB_mzhttq.png"
+        ],
+        "description": "Segundo proyecto del máster en desarrollo web. Se trata de una aplicación de intercambio y compra/venta de videojuegos entre particulares. Puedes crearte una cuenta, valorar a los compradores, vendedores y videojuegos, dejar reseñas y conectar tu cuenta con tu cuenta de Steam, entre otras funcionalidades.",
+        "url": "https://just-game.herokuapp.com/"
+    },
+    {
+        "id": "2",
+        "name": "Defend IronHack",
+        "image": "https://res.cloudinary.com/getapet/image/upload/v1621592932/Kiko%20Website/Defend_IronHack_vqpxcn.png",
+        "technologies": [
+            "https://res.cloudinary.com/getapet/image/upload/v1621587111/Kiko%20Website/javascript-js_c62ir9.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621589025/Kiko%20Website/HTML5_rspbgd.png",
+            "https://res.cloudinary.com/getapet/image/upload/v1621589025/Kiko%20Website/css3_icy8yr.png"
+        ],
+        "description": "Este fue mi primer proyecto como desarrollador junior. Consiste en un videojuego, hecho completamente en JavaScript, donde tu misión es la de defender a los supervivientes IronHack de una invasión zombie.",
+        "url": "https://kikoquesada.github.io/Defend_Ironhack/"
+    }
+]
