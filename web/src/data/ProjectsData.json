@@ -11,7 +11,7 @@
             "https://res.cloudinary.com/getapet/image/upload/v1621598825/Kiko%20Website/ReactJS_rz3try.png",
             "https://res.cloudinary.com/getapet/image/upload/v1621597142/Kiko%20Website/MongoDB_mzhttq.png"
         ],
-        "description": "Segundo proyecto del máster en desarrollo web. Se trata de una aplicación de intercambio y compra/venta de videojuegos entre particulares. Puedes crearte una cuenta, valorar a los compradores, vendedores y videojuegos, dejar reseñas y conectar tu cuenta con tu cuenta de Steam, entre otras funcionalidades.",
+        "description": "Aplicación destinada a facilitar la adopción de mascotas en los refugios de animales. Los usuarios que deseen adoptar pueden gestionar los trámites de adopción a través de la aplicación de manera rápida y sencilla. Por otro lado, los refugios pueden valorar desde la aplicación, la idoneidad de cada candidato",
         "url": "#"
     },
     {

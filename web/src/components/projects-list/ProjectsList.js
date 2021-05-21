@@ -18,7 +18,7 @@ function ProjectsList() {
                 loading: false,
                 projectsData: projectsData
             })
-        }, 1500)
+        }, 1000)
     });
 
     if (data.loading) {

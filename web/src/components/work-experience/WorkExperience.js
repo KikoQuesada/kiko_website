@@ -19,7 +19,7 @@ function WorkExperience() {
                 loading: false,
                 data: data
             })
-        }, 1500);
+        }, 1000);
 
     })
 
