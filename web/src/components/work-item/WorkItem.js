@@ -5,8 +5,8 @@ function WorkItem({ work: { title, subtitle, logo, from, to, tasks } }) {
 
     return (
 
-        <section className="container workWrapper">
-            <article className="d-flex align-items-start">
+        <section className="workWrapper">
+            <article className="d-flex align-items-start justify-content-center">
                 <img className="w-25" src={logo} alt={title} />
                 <div>
                     <h5>{title}</h5>

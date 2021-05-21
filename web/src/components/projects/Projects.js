@@ -3,7 +3,7 @@ import './Projects.scss';
 
 function Projects({ project: { name, image, technologies, description, url } }) {
     return (
-        <section className="d-flex flex-row justify-content-start mb-5">
+        <section className="d-flex flex-row justify-content-start projectWrapper">
             <article className="row">
                 <div className="col-lg-6">
                     <h5 className="title">{name}</h5>

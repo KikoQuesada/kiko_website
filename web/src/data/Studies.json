@@ -1,0 +1,30 @@
+[
+    {
+        "id": "0",
+        "university": "IronHack",
+        "title": "Máster en Desarrollo Web",
+        "location": "Remote",
+        "image": "https://res.cloudinary.com/getapet/image/upload/v1621617038/Kiko%20Website/logo-ironhack-blue_sgvxgj.png"
+    },
+    {
+        "id": "1",
+        "university": "Universidad Loyola Andalucía",
+        "title": "Máster en Dirección de Marketing",
+        "location": "Sevilla",
+        "image": "https://res.cloudinary.com/getapet/image/upload/v1621614933/Kiko%20Website/loyola.png_ccqgwp.png"
+    },
+    {
+        "id": "2",
+        "university": "Universität Duisburg-Essen",
+        "title": "Betriebswirtschaft",
+        "location": "Deutschland",
+        "image": "https://res.cloudinary.com/getapet/image/upload/v1621614775/Kiko%20Website/Uni_Duisburg_sveyzp.png"
+    },
+    {
+        "id": "3",
+        "university": "Universidad Pablo de Olavide",
+        "title": "Administración y Dirección de empresas",
+        "location": "Sevilla",
+        "image": "https://res.cloudinary.com/getapet/image/upload/v1621614510/Kiko%20Website/Marca-UPO-Horizontal_gv6wcd.png"
+    }
+]

@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar';
 import AboutMe from './components/about-me/AboutMe';
 import WorkExperience from './components/work-experience/WorkExperience';
 import ProjectsList from './components/projects-list/ProjectsList';
+import StudiesList from './components/studies-list/StudiesList';
 import './App.scss';
 import { Link } from 'react-router-dom';
 
@@ -28,6 +29,7 @@ function App() {
             <Route exact path="/" component={AboutMe} />
             <Route exact path="/workexperience" component={WorkExperience} />
             <Route exact path="/projects" component={ProjectsList} />
+            <Route exact path="/studies" component={StudiesList} />
           </Switch>
           <Navbar />
         </div>
