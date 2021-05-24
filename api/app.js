@@ -18,6 +18,8 @@ app.use(cors);
 const router = require('./config/routes.config');
 app.use('/api', router);
 
+/** Configuración de rutas para Docker: Le digo que todas las peticiones GET las envíe al INDEX-HTML siempre y cuando no empiecen
+ * por /API */ 
 app.get('/*', (req, res) => {
     res.sendFile(`${__dirname}/react-app/index.html`)
 })
