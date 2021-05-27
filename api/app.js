@@ -45,7 +45,7 @@ app.use((error, req, res, next) => {
     res.status(error.status),json(data)
 });
 
-const port = Number(process.eventNames.PORT || 3001);
+const port = Number(process.env.PORT || 3001);
 
 if (process.env.NODE_ENV !== 'test') {
     app.listen(port, () => {
