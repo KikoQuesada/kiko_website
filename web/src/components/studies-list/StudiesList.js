@@ -18,11 +18,11 @@ function StudiesList() {
                 loading: false, 
                 data: data
             })
-        }, 1000)
+        }, 2000)
     })
 
     if (data.loading) {
-        return <Loading />
+        return <section className="loading-container"><Loading /></section>
     }
 
     return (

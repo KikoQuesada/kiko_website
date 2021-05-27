@@ -19,12 +19,12 @@ function WorkExperience() {
                 loading: false,
                 data: data
             })
-        }, 1000);
+        }, 2000);
 
     })
 
     if(content.loading) {
-        return <Loading />
+        return <section className="loading-container"><Loading /></section>
                 
     }
 

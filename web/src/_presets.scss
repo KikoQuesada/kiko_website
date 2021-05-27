@@ -23,3 +23,11 @@ body {
 h5 {
   color: $emphasis-color;
 }
+
+.loading-container {
+  width: 100vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

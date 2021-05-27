@@ -18,11 +18,11 @@ function ProjectsList() {
                 loading: false,
                 projectsData: projectsData
             })
-        }, 1000)
+        }, 2000)
     });
 
     if (data.loading) {
-        return <Loading />
+        return <section className="loading-container"><Loading /></section>
     }
 
     return (
