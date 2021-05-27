@@ -1,0 +1,5 @@
+build: 
+  docker:
+    web: Dockerfile
+  config:
+    REACT_APP_API_BASE_URL: https://kikoquesada.herokuapp.com/api
