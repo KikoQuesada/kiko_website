@@ -27,6 +27,7 @@ function AboutMe() {
             <section className="d-flex justify-content-start mt-4">
                 <img className="technology-about" src="https://res.cloudinary.com/getapet/image/upload/v1621608475/Kiko%20Website/Typesript_yohdi7.png" alt="typescript" />
                 <img className="technology-about" src="https://res.cloudinary.com/getapet/image/upload/v1621608475/Kiko%20Website/GraphQL_flmwnq.png" alt="graphQL" />
+                <img className="technology-about" src="https://res.cloudinary.com/getapet/image/upload/v1622390275/Kiko%20Website/vertical-logo-monochromatic_f6w3zu.png" alt="Docker" />
             </section>
         </section>
 
