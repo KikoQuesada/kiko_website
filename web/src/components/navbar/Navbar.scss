@@ -1,47 +1,61 @@
 @import '../../presets';
 
 .header {
-    display: flex;
-    background: $background-color;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  background: $background-color;
+  justify-content: space-between;
+  align-items: center;
     
 }
 
+.nav-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .logo-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.5rem;
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
   
 .nav-options {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
+  margin-right: 1rem;
 }
 
 .mobile-option {
-    display: none;
+  display: none;
 }
 
 .nav-link {
-    text-decoration: none;
-    color: $text-color;
-    font-weight: $medium-weight;
-    font-size: 1.2rem;
+  text-decoration: none;
+  color: $text-color;
+  font-weight: $medium-weight;
+  font-size: 1.2rem;
+}
+
+.nav-link-active {
+  text-decoration: none;
+  color: $emphasis-color;
+  font-weight: $medium-weight;
+  font-size: 1.2rem;
 }
   
 .option :hover {
-    color: $emphasis-color;
+  color: $emphasis-color;
 }
 
 .mobile-menu {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 648px) {

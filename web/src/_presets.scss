@@ -25,8 +25,7 @@ h5 {
 }
 
 .loading-container {
-  width: 100vh;
-  height: 50vh;
+  height: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,4 +36,12 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 648px) {
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

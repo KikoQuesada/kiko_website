@@ -6,8 +6,8 @@ import Loading from '../commons/loading/Loading';
 
 function StudiesList() {
 
-    const [ data, setData ] = useState({
-        loading: true,  
+    const [data, setData] = useState({
+        loading: true,
         studiesData: []
     });
 
@@ -15,7 +15,7 @@ function StudiesList() {
     useEffect(() => {
         setTimeout(() => {
             setData({
-                loading: false, 
+                loading: false,
                 data: data
             })
         }, 2000)
@@ -26,11 +26,11 @@ function StudiesList() {
     }
 
     return (
-        <div className="col-lg-10">
-            {studiesData.map(study => (
-                <Studies key={study.id} study={study}/>
-            ))}
-        </div>
+        <section className="row d-flex align-items-center justify-content-center">
+                {studiesData.map(study => (
+                    <Studies key={study.id} study={study} />
+                ))} 
+        </section>
     );
 }
 

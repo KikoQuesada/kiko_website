@@ -5,7 +5,6 @@ import WorkExperience from './components/work-experience/WorkExperience';
 import ProjectsList from './components/projects-list/ProjectsList';
 import StudiesList from './components/studies-list/StudiesList';
 import './App.scss';
-import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Loading from './components/commons/loading/Loading';
 import Footer from './components/footer/Footer';
@@ -35,8 +34,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div className="container">
-        <div className="pt-5 row">
+        <div className="pt-5">
           <Switch>
             <Route exact path="/" component={AboutMe} />
             <Route exact path="/workexperience" component={WorkExperience} />
@@ -45,7 +43,7 @@ function App() {
           </Switch>
           
         </div>
-      </div>
+      
       <Footer />
     </Router>
   );

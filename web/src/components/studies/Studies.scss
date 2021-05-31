@@ -1,12 +1,40 @@
 @import '../../presets';
 
 .study-img {
-    max-height: 10rem;
     max-width: 10rem;
     margin-right: 2rem;
 }
 
+.study-items {
+    display: flex;
+    align-items: center;
+}
+
 .study-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 7rem;
+}
+
+@media (max-width: 648px) {
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .study-img {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .study-items {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 

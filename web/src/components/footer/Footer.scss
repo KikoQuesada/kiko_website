@@ -5,4 +5,14 @@
     justify-content: center;
     position: relative;
     bottom: 0;
+    padding-top: 13rem;
+}
+
+@media (max-width: 648px) {
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 0;
+    }
 }

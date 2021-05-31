@@ -1,6 +1,6 @@
 import './Navbar.scss';
 import '../../App.scss';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { ReactComponent as CloseMenu } from '../commons/assets/close.svg';
 import { ReactComponent as MenuIcon } from '../commons/assets/hamburguer.svg';
 import { useState } from 'react';
@@ -10,42 +10,46 @@ import { useState } from 'react';
 function Navbar() {
 
     const [click, setClick] = useState(false);
-    
+
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
     return (
         <div className="header">
             <div className="logo-nav">
+
                 <div className="logo-container">
                     <Link to="/"><img
-                        className="img-container"
+                        className="col-4"
                         src="https://res.cloudinary.com/getapet/image/upload/v1621243390/Kiko%20Website/Logo_KQ_white_l2pjrf.png"
                         alt="KQ"
                     /></Link>
                 </div>
+            </div>
+            <div className="nav-container">
                 <section className={click ? "nav-options active" : "nav-options"}>
                     <div className="option" onClick={closeMobileMenu}>
-                        <Link className='nav-link' to="/">Home</Link>
+                        <NavLink activeClassName="nav-link-active" className='nav-link' to="/">Home</NavLink>
                     </div>
                     <div className="option" onClick={closeMobileMenu}>
-                        <Link className="nav-link" to="/projects">Projects</Link>
+                        <NavLink activeClassName="nav-link-active" className="nav-link" to="/projects">Proyectos</NavLink>
                     </div>
                     <div className="option" onClick={closeMobileMenu}>
-                        <Link className="nav-link" to="/workexperience">Work Experience</Link>
+                        <NavLink activeClassName="nav-link-active" className="nav-link" to="/workexperience">Experiencia Laboral</NavLink>
                     </div>
                     <div className="option" onClick={closeMobileMenu}>
-                        <Link className="nav-link" to="/studies">Studies</Link>
+                        <NavLink activeClassName="nav-link-active" className="nav-link" to="/studies">Estudios</NavLink>
                     </div>
                 </section>
+                <div className="mobile-menu" onClick={handleClick}>
+                    {click ? (
+                        <CloseMenu className="menu-icon" />
+                    ) : (
+                        <MenuIcon className="menu-icon" />
+                    )}
+                </div>
             </div>
-            <div className="mobile-menu" onClick={handleClick}>
-                {click ? (
-                    <CloseMenu className="menu-icon" />
-                ) : (
-                    <MenuIcon className="menu-icon" />
-                )}
-            </div>
+
         </div>
 
 
