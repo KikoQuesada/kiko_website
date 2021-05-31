@@ -20,7 +20,7 @@ function Navbar() {
 
                 <div className="logo-container">
                     <Link to="/"><img
-                        className="col-4"
+                        className="col-4 img-logo"
                         src="https://res.cloudinary.com/getapet/image/upload/v1621243390/Kiko%20Website/Logo_KQ_white_l2pjrf.png"
                         alt="KQ"
                     /></Link>

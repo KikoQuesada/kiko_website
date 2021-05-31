@@ -20,7 +20,17 @@
 }
 
 h4 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    & a {
+        text-decoration: none;
+        color: $emphasis-color;
+        transition: 1s ease-in;
+        &:hover {
+            color: $emphasis-color;
+            text-decoration: underline;
+            
+        }
+    }
 }
 
 .technology-distribution {

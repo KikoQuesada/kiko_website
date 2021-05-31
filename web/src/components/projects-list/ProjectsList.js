@@ -26,7 +26,7 @@ function ProjectsList() {
     }
 
     return (
-        <section className="col-lg-10">
+        <section className="d-flex flex-column justify-content-center align-items-center">
             {projectsData.map(project => (
                 <Projects key={project.id} project={project} />
             ))}

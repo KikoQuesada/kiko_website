@@ -5,15 +5,11 @@
     color: $emphasis-color;
 }
 
-.project-image {
-    width: 18rem;
-    height: 10rem;
-}
 
 .btn {
     background-color: transparent;
     color: $text-color;
-    border: 1px solid $text-color;
+    font-weight: 400;
     &:hover {
         background-color: $text-color;
         color: $background-color;
@@ -21,5 +17,9 @@
 }
 
 .projectWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     margin-bottom: 7rem;
 }

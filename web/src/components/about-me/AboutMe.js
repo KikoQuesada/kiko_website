@@ -5,10 +5,13 @@ function AboutMe() {
 
     return (
 
-        <section className="section-container">
+        <section className="container section-container">
             <h2>Hola! mi nombre es Kiko Quesada</h2>
             <h3 className="mb-4">y soy <span className="emphasis">desarrollador web</span></h3>
-            <h4>Puedes usar el panel que te dejo a la derecha para conocer más sobre mi.</h4>
+            <h4>Me gusta construir aplicaciones con un objetivo princial: hacerle la vida más fácil al mayor número de gente posible.
+                Además, actualmente soy técnico de marketing en <a href="www.agqlabs.es">AGQ Labs</a>. 
+                
+            </h4>
             <h4>Más allá de mis estudios o experiencia
                     laboral me encantan los animales <i className="fas fa-paw"></i> (como podrás comprobar en uno de mis proyectos),
                     la música <i className="fas fa-headphones"></i> y los videojuegos <i className="fas fa-gamepad"></i></h4>
