@@ -3,7 +3,7 @@ import '../../App.scss';
 import { Link, NavLink } from 'react-router-dom';
 import { ReactComponent as CloseMenu } from '../commons/assets/close.svg';
 import { ReactComponent as MenuIcon } from '../commons/assets/hamburguer.svg';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 
@@ -14,8 +14,19 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
+    const [scroll, setScroll] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            setScroll(window.scrollY > 0);
+        });
+    }, []);
+
+
+
+
     return (
-        <div className="header">
+        <header className={scroll ? 'header scrolling' : 'header'}>
             <div className="logo-nav">
 
                 <div className="logo-container">
@@ -25,6 +36,13 @@ function Navbar() {
                         alt="KQ"
                     /></Link>
                 </div>
+               <div className="social-icon-container">
+                <Link target="blank" className="social-media" to='https://github.com/KikoQuesada'><i className="fab fa-github fa-lg"></i></Link>
+                <Link target="blank" className="social-media" to='https://www.linkedin.com/in/franciscoquesadacabello/'><i className="fab fa-linkedin-in fa-lg"></i></Link>
+                <Link target="blank" className="social-media" to='https://twitter.com/_Kiko_7'><i className="fab fa-twitter fa-lg"></i></Link>
+               </div>
+                
+                
             </div>
             <div className="nav-container">
                 <section className={click ? "nav-options active" : "nav-options"}>
@@ -50,23 +68,7 @@ function Navbar() {
                 </div>
             </div>
 
-        </div>
-
-
-
-
-
-
-
-
-        /* <nav className="col-lg-2">
-            <section className="side-navbar">
-                <Link to="/projects" className="link">Proyectos</Link>
-                <Link to="/workexperience" className="link">Experiencia Laboral</Link>
-                <Link to="/studies" className="link">Estudios</Link>
-                <Link to="/contact" className="link">Contáctame</Link>
-            </section>
-        </nav> */
+        </header>
     );
 }
 

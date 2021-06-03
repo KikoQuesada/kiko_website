@@ -5,6 +5,28 @@
     color: $emphasis-color;
 }
 
+.main-img {
+    
+    @media (max-width: 648px) {
+        width: 20rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.main-content {
+    @media (max-width: 648px) {
+        text-align: center;
+    }
+}
+
+.icon-distribution {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    @media (max-width: 648px) {
+        justify-content: center;
+    }
+}
 
 .btn {
     background-color: transparent;
@@ -22,4 +44,8 @@
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 7rem;
+    @media (max-width: 648px) {
+        flex-direction: column;
+    }
 }
+

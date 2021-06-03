@@ -4,11 +4,30 @@
   width: 5rem;
 }
 
+.social-media {
+  color: white;
+  margin-left: 1rem;
+  & :hover {
+    color: $emphasis-color;
+  }
+}
+
+.social-icon-container {
+  margin-left: 2rem;
+}
+
 .header {
   display: flex;
   background: $background-color;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.2s ease;
+  &.scrolling {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 1px 10px 0px rgba(112, 255, 241, 0.3);
+    transition: all 0.2s ease;
+  }
     
 }
 

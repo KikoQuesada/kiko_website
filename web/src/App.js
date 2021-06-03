@@ -34,7 +34,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-        <div className="pt-5">
+        <div className="pt-5 d-flex justify-content-center align-items-center">
           <Switch>
             <Route exact path="/" component={AboutMe} />
             <Route exact path="/workexperience" component={WorkExperience} />
