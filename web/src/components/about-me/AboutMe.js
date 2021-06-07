@@ -15,7 +15,7 @@ function AboutMe() {
             <h4>Más allá de mis estudios o experiencia
                     laboral me encantan los animales <i className="fas fa-paw"></i> (como podrás comprobar en uno de mis proyectos),
                     la música <i className="fas fa-headphones"></i> y los videojuegos <i className="fas fa-gamepad"></i></h4>
-            <h4 className="mt-5">Tecnologías que controlo</h4>
+            <h4 className="mt-5">Tecnologías que domino</h4>
             <section className="technology-distribution">
                 <img className="technology-about" src="https://res.cloudinary.com/getapet/image/upload/v1621587111/Kiko%20Website/javascript-js_c62ir9.png" alt="javascript" />
                 <img className="technology-about" src="https://res.cloudinary.com/getapet/image/upload/v1621589025/Kiko%20Website/HTML5_rspbgd.png" alt="HTML" />

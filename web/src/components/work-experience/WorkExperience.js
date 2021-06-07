@@ -31,7 +31,7 @@ function WorkExperience() {
 
  
     return (
-        <section className="col-lg-10">
+        <section className="d-flex flex-column align-items-center justify-content-center">
             {data.map(work => (
                 <WorkItem key={work.id} work={work}/>
             ))}

@@ -2,5 +2,42 @@
 
 
 .workWrapper {
+    width: 70rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     margin-bottom: 7rem;
+    h6 {
+        color: $emphasis-color;
+    }
+    @media (max-width: 648px) {
+        width: auto;
+        align-items: center;
+        ul {
+            list-style: none;
+            padding: 0 1rem 0 1rem;
+            li {
+                margin-bottom: 1rem;
+                padding-bottom: 1rem;
+                border-bottom: solid $emphasis-color 1px;
+                border-image: linear-gradient(to right, $background-color 25%,$emphasis-color 25%,$emphasis-color 75%,rgba(108,219185,141,0) 75%);
+                border-image-slice: 1;
+            }
+        }
+        div {
+            text-align: center;
+        }
+    }
 }
+
+
+
+.work-image {
+    max-width: 15rem;
+    margin-right: 2rem;
+    @media (max-width: 648px) {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+
